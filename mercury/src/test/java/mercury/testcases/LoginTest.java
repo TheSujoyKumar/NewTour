@@ -24,7 +24,11 @@ public class LoginTest extends TestBase{
 		return data;
 	}
 	
-	
+	/**
+	 * 
+	 * @param userName
+	 * @param password
+	 */
 	@Test(dataProvider="loginData")
 	public void validLoginTest(String userName,String password) {
 	
