@@ -38,7 +38,7 @@ public class LoginTest extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(.,'SIGN-OFF')]")).click();
 		 
-		
+		System.out.println("Login Done");
 		
 	}
 	
